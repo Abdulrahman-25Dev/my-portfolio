@@ -1,13 +1,13 @@
 import React from 'react';
 // استيراد أيقونات معبرة عن مشاريعك الأربعة
-import { BookOpen, Calendar, Scroll, Utensils, ExternalLink, Code2 } from 'lucide-react';
+import { BookOpen, Scroll, Utensils, ExternalLink, Code2, Hourglass } from 'lucide-react';
 
 const projectsData = [
   {
     id: 1,
     title: "عارض الآيات (Ayah Viewer)",
     tech: ["JS", "CSS", "Quran API"],
-    desc: "#",
+    desc: "A simple website that displays a random Quranic verse with a link to its interpretation.",
     // حددنا الأيقونة، واللون الخاص بالوهج (أخضر زمردي للقرآن والآيات)
     icon: BookOpen,
     glowColor: "group-hover:text-emerald-400 group-hover:shadow-[0_0_30px_rgba(52,211,153,0.4)]",
@@ -20,7 +20,7 @@ const projectsData = [
     id: 3,
     title: "موقع السُّنّة (Sunnah App)",
     tech: ["React", "Tailwind CSS", "JSON"],
-    desc: "#",
+    desc: "A web app that allows users to view different hadiths with their meanings (expandable).",
     icon: Scroll,
     glowColor: "group-hover:text-amber-400 group-hover:shadow-[0_0_30px_rgba(251,191,36,0.4)]",
     iconBg: "bg-amber-500/10 border-amber-500/20 text-amber-400",
@@ -32,7 +32,7 @@ const projectsData = [
     id: 4,
     title: "تطبيق الوصفات (Magadeer)",
     tech: ["React Native Expo", "Tailwind CSS", "TheMealDB API"],
-    desc: "#",
+    desc: "An international recipe explorer displaying hundreds of global dishes with ingredients and step-by-step cooking guides.",
     icon: Utensils,
     glowColor: "group-hover:text-purple-400 group-hover:shadow-[0_0_30px_rgba(192,132,252,0.4)]",
     iconBg: "bg-purple-500/10 border-purple-500/20 text-purple-400",
@@ -43,9 +43,9 @@ const projectsData = [
   {
     id: 2,
     title: "تطبيق العادات (DevLearn)",
-    tech: ["React Native Expo", "tailwind CSS", "React Native MMKV"],
-    desc: "#",
-    icon: Calendar,
+    tech: ["React Native Expo", "Tailwind CSS", "React Native MMKV"],
+    desc: "A simple, smart app to track your daily goals and habits, featuring interactive stats to keep your streak going (scalable).",
+    icon: Hourglass,
     glowColor: "group-hover:text-blue-400 group-hover:shadow-[0_0_30px_rgba(96,165,250,0.4)]",
     iconBg: "bg-blue-500/10 border-blue-500/20 text-blue-400",
     liveLink: "#",
@@ -69,7 +69,7 @@ export default function ProjectsSection() {
           <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
           <span className="bg-clip-text text-transparent bg-linear-to-r from-emerald-400 to-purple-500">Featured</span>  Projects 
           </h2>
-          <p className="text-gray-400 mt-4 max-w-xl mx-auto text-sm sm:text-base">
+          <p className="text-gray-400 mt-4 max-w-xl mx-auto text-sm sm:text-base" dir="ltr">
             Here are some of the projects I have worked on.
           </p>
         </div>
@@ -105,7 +105,7 @@ export default function ProjectsSection() {
                   <h3 className="text-xl font-bold text-white tracking-wide transition-colors duration-300">
                     {project.title}
                   </h3>
-                  <p className="text-gray-400 text-sm mt-3 leading-relaxed font-normal">
+                  <p className="text-gray-400 text-sm mt-3 leading-relaxed font-normal" dir="ltr">
                     {project.desc}
                   </p>
                 </div>
