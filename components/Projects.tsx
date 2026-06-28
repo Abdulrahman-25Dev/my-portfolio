@@ -15,7 +15,7 @@ import {
 const projectsData = [
   {
     id: 1,
-    title: "تدبر (Tadabbor)",
+    title: "تدبر واعمل (Tadabbar & Work)",
     tech: ["JS", "CSS", "Quran API"],
     desc: "A modern web application designed for deep reflection, displaying randomized Quranic verses with direct access to their authentic interpretations (Tafseer) - (Under maintenance).",
     icon: BookOpen,
@@ -31,7 +31,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "السيرة و النور (Sunnah & Light)",
+    title: "بصيرة (Baseerah)",
     tech: ["React", "Tailwind CSS", "JSON"],
     desc: "An interactive platform dedicated to exploring prophetic traditions, allowing users to browse, search, and understand verified Hadiths and their meanings (Under maintenance).",
     icon: Scroll,
