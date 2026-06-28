@@ -63,7 +63,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "مطور معرفي | DevLearn",
+    title: "مَنهج المطور | DevLearn",
     tech: ["React Native Expo", "Tailwind CSS", "React Native MMKV"],
     desc: "A simple, smart app to track your daily goals and habits, featuring interactive stats to keep your streak going (scalable).",
     icon: Hourglass,
