@@ -15,7 +15,7 @@ import {
 const projectsData = [
   {
     id: 1,
-    title: "تدبر واعمل (Tadabbar & Work)",
+    title: "تدبر وعمل | Tadabbur & Amal ",
     tech: ["JS", "CSS", "Quran API"],
     desc: "A modern web application designed for deep reflection, displaying randomized Quranic verses with direct access to their authentic interpretations (Tafseer) - (Under maintenance).",
     icon: BookOpen,
@@ -31,7 +31,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "بصيرة (Baseerah)",
+    title: "بصيرة | Baseerah",
     tech: ["React", "Tailwind CSS", "JSON"],
     desc: "An interactive platform dedicated to exploring prophetic traditions, allowing users to browse, search, and understand verified Hadiths and their meanings (Under maintenance).",
     icon: Scroll,
@@ -47,7 +47,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "مقادير (Magadeer)",
+    title: "مقادير | Magadeer",
     tech: ["React Native Expo", "Tailwind CSS", "TheMealDB API"],
     desc: "An international recipe explorer displaying hundreds of global dishes with ingredients and step-by-step cooking guides.",
     icon: Utensils,
@@ -63,7 +63,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "مطور معرفي (DevLearn)",
+    title: "مطور معرفي | DevLearn",
     tech: ["React Native Expo", "Tailwind CSS", "React Native MMKV"],
     desc: "A simple, smart app to track your daily goals and habits, featuring interactive stats to keep your streak going (scalable).",
     icon: Hourglass,
