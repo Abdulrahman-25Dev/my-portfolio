@@ -17,7 +17,7 @@ const projectsData = [
     id: 1,
     title: "تدبر (Tadabbor)",
     tech: ["JS", "CSS", "Quran API"],
-    desc: "A modern web application designed for deep reflection, displaying randomized Quranic verses with direct access to their authentic interpretations (Tafseer).",
+    desc: "A modern web application designed for deep reflection, displaying randomized Quranic verses with direct access to their authentic interpretations (Tafseer) - (Under maintenance).",
     icon: BookOpen,
     glowColor:
       "group-hover:text-purple-400 group-hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] group-hover:border-purple-500/40",
@@ -33,7 +33,7 @@ const projectsData = [
     id: 2,
     title: "السيرة و النور (Sunnah & Light)",
     tech: ["React", "Tailwind CSS", "JSON"],
-    desc: "An interactive platform dedicated to exploring prophetic traditions, allowing users to browse, search, and understand verified Hadiths and their meanings (expandable).",
+    desc: "An interactive platform dedicated to exploring prophetic traditions, allowing users to browse, search, and understand verified Hadiths and their meanings (Under maintenance).",
     icon: Scroll,
     glowColor:
       "group-hover:text-purple-400 group-hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] group-hover:border-purple-500/40",
