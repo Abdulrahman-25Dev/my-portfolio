@@ -15,16 +15,16 @@ import {
 const projectsData = [
   {
     id: 1,
-    title: "تدبر وعمل | Tadabbur & Amal ",
+    title: "القرآن تدبر وعمل | Tadabbur & Amal ",
     tech: ["JS", "CSS", "Quran API"],
-    desc: "A modern web application designed for deep reflection, displaying randomized Quranic verses with direct access to their authentic interpretations (Tafseer) - (Under maintenance).",
+    desc: "A modern web application designed for deep reflection, displaying randomized Quranic verses with direct access to their authentic interpretations (Tafseer).",
     icon: BookOpen,
     glowColor:
       "group-hover:text-purple-400 group-hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] group-hover:border-purple-500/40",
     iconBg: "bg-purple-500/10 border-purple-500/20 text-purple-400",
     cardHover:
       "hover:border-purple-500/30 hover:shadow-[0_0_50px_-12px_rgba(168,85,247,0.2)]",
-    liveLink: "https://random-ayat-d7.pages.dev/",
+    liveLink: "https://tadabbor-and-amal.vercel.app/",
     githubLink: "https://github.com/dooom77-0/Quran-App",
     isFeatured: true,
     isApp: false,
@@ -56,7 +56,7 @@ const projectsData = [
     iconBg: "bg-emerald-500/10 border-emerald-500/20 text-emerald-400",
     cardHover:
       "hover:border-emerald-500/30 hover:shadow-[0_0_50px_-12px_rgba(52,211,153,0.2)]",
-    liveLink: "/Magadeer.apk",
+    liveLink: "https://drive.google.com/file/d/1sVE0hatyKflxmyRDKM2Stmr--E_mmdPr/view?usp=sharing",
     githubLink: "https://github.com/dooom77-0/Recipe-App",
     isFeatured: false,
     isApp: true,
@@ -72,7 +72,7 @@ const projectsData = [
     iconBg: "bg-emerald-500/10 border-emerald-500/20 text-emerald-400",
     cardHover:
       "hover:border-emerald-500/30 hover:shadow-[0_0_50px_-12px_rgba(52,211,153,0.2)]",
-    liveLink: "/DevLearn.apk",
+    liveLink: "https://drive.google.com/file/d/1Way-pdJ7EsN502b2TAGFQa-zFmNO0OzS/view?usp=sharing",
     githubLink: "https://github.com/dooom77-0/Shift-Planner",
     isFeatured: true,
     isApp: true,
