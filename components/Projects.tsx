@@ -25,9 +25,7 @@ const projectsData = [
     cardHover:
       "hover:border-purple-500/30 hover:shadow-[0_0_50px_-12px_rgba(168,85,247,0.2)]",
     liveLink: "https://tadabbor-and-amal.vercel.app/",
-    githubLink: "https://github.com/dooom77-0/Quran-App",
-    isFeatured: true,
-    isApp: false,
+    githubLink: "https://github.com/Abdulrahman-25Dev/tadabbor-and-amal/tree/main"
   },
   {
     id: 2,
@@ -40,8 +38,8 @@ const projectsData = [
     iconBg: "bg-purple-500/10 border-purple-500/20 text-purple-400",
     cardHover:
       "hover:border-purple-500/30 hover:shadow-[0_0_50px_-12px_rgba(168,85,247,0.2)]",
-    liveLink: "https://sunnah-app-d7.pages.dev/",
-    githubLink: "https://github.com/dooom77-0/Sunnah-App",
+    liveLink: "https://baseerah-azure.vercel.app/",
+    githubLink: "https://github.com/Abdulrahman-25Dev/Baseerah",
     isFeatured: false,
     isApp: false,
   },
