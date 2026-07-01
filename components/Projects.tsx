@@ -25,7 +25,9 @@ const projectsData = [
     cardHover:
       "hover:border-purple-500/30 hover:shadow-[0_0_50px_-12px_rgba(168,85,247,0.2)]",
     liveLink: "https://tadabbor-and-amal.vercel.app/",
-    githubLink: "https://github.com/Abdulrahman-25Dev/tadabbor-and-amal/tree/main"
+    githubLink: "https://github.com/Abdulrahman-25Dev/tadabbor-and-amal/tree/main",
+    isFeatured: true,
+    isApp: false,
   },
   {
     id: 2,
