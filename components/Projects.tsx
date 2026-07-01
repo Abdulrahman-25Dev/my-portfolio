@@ -16,7 +16,7 @@ const projectsData = [
   {
     id: 1,
     title: "القرآن تدبر وعمل | Tadabbur & Amal ",
-    tech: ["JS", "CSS", "Quran API"],
+    tech: ["Next.js", "Tailwind CSS", "Quran API"],
     desc: "A modern web application designed for deep reflection, displaying randomized Quranic verses with direct access to their authentic interpretations (Tafseer).",
     icon: BookOpen,
     glowColor:
@@ -32,8 +32,8 @@ const projectsData = [
   {
     id: 2,
     title: "بصيرة | Baseerah",
-    tech: ["React", "Tailwind CSS", "JSON"],
-    desc: "An interactive platform dedicated to exploring prophetic traditions, allowing users to browse, search, and understand verified Hadiths and their meanings (Under maintenance).",
+    tech: ["Next.js", "Tailwind CSS", "Hadith API"],
+    desc: "Your modern digital gateway to seamlessly read and explore prophetic Hadiths. Access authentic collections through a beautifully designed, minimalist interface tailored for a smooth daily reading experience.",
     icon: Scroll,
     glowColor:
       "group-hover:text-purple-400 group-hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] group-hover:border-purple-500/40",

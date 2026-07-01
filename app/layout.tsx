@@ -6,7 +6,8 @@ import "./globals.css";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
-});
+}); 
+
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -14,12 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "My Finale Portfolio",
   description: "Showcasing my projects and skills",
-
   icons: {
     icon: "/portfolioIcon.png",
-    shortcut: "/portfolioIcon.ico",
+    shortcut: "/portfolioIcon.png",
     apple: "/portfolioIcon.png",
   }
 };
